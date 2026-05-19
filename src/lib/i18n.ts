@@ -70,9 +70,11 @@ export const t = {
         url: 'https://email-demo.autonomika.de',
       },
       s3: {
-        badge: 'Geplant',
+        badge: 'Live',
         name: 'Meeting-Zusammenfassung',
-        desc: 'Audio oder Transkript rein — KI liefert strukturierte Zusammenfassung mit Entscheidungen und To-Dos. Whisper + GPT-Pipeline.',
+        desc: 'Transcript einfügen — KI liefert Zusammenfassung, Entscheidungen und priorisierte To-Dos. Groq + FastAPI + SvelteKit.',
+        link: 'Demo ansehen',
+        url: 'https://meeting-demo.autonomika.de',
       },
     },
     contact: {
@@ -131,9 +133,11 @@ export const t = {
         url: 'https://email-demo.autonomika.de',
       },
       s3: {
-        badge: 'Planned',
+        badge: 'Live',
         name: 'Meeting Summary',
-        desc: 'Drop in audio or a transcript — AI delivers a structured summary with decisions and to-dos. Whisper + GPT pipeline.',
+        desc: 'Paste a transcript — AI delivers a summary, decisions, and prioritized to-dos. Groq + FastAPI + SvelteKit.',
+        link: 'Open Demo',
+        url: 'https://meeting-demo.autonomika.de',
       },
     },
     contact: {

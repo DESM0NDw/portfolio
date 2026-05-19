@@ -217,22 +217,28 @@
 			</div>
 
 			<!-- Meeting Summary -->
-			<div class="fade-in bg-slate-800 rounded-2xl p-6 border border-slate-700 hover:border-slate-600 transition-all flex flex-col">
+			<div class="fade-in bg-slate-800 rounded-2xl p-6 border border-slate-700 hover:border-amber-500/30 hover:shadow-lg transition-all flex flex-col">
 				<div class="flex items-start justify-between mb-4">
-					<div class="h-10 w-10 bg-slate-700 rounded-xl flex items-center justify-center">
-						<svg class="h-5 w-5 text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
-							<path stroke-linecap="round" stroke-linejoin="round" d="M12 18.75a6 6 0 0 0 6-6v-1.5m-6 7.5a6 6 0 0 1-6-6v-1.5m6 7.5v3.75m-3.75 0h7.5M12 15.75a3 3 0 0 1-3-3V4.5a3 3 0 1 1 6 0v8.25a3 3 0 0 1-3 3Z" />
+					<div class="h-10 w-10 bg-amber-500/10 rounded-xl flex items-center justify-center">
+						<svg class="h-5 w-5 text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+							<path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z" />
 						</svg>
 					</div>
-					<span class="text-xs font-medium text-slate-400 bg-slate-700 px-2 py-1 rounded-full">{tx.showcases.s3.badge}</span>
+					<span class="text-xs font-medium text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 px-2 py-1 rounded-full">{tx.showcases.s3.badge}</span>
 				</div>
 				<h3 class="text-lg font-bold text-white mb-2">{tx.showcases.s3.name}</h3>
 				<p class="text-slate-400 text-sm leading-relaxed mb-4 flex-1">{tx.showcases.s3.desc}</p>
-				<div class="flex flex-wrap gap-1.5">
-					{#each ['Whisper', 'n8n', 'OpenAI API'] as tag}
+				<div class="flex flex-wrap gap-1.5 mb-4">
+					{#each ['Groq', 'FastAPI', 'SvelteKit', 'Docker'] as tag}
 						<span class="text-xs bg-slate-700 text-slate-300 px-2 py-0.5 rounded">{tag}</span>
 					{/each}
 				</div>
+				<a href={tx.showcases.s3.url} target="_blank" rel="noopener" class="inline-flex items-center justify-center gap-2 text-sm font-medium text-slate-900 bg-amber-400 hover:bg-amber-300 transition-colors rounded-xl px-4 py-2">
+					<svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+					</svg>
+					{tx.showcases.s3.link}
+				</a>
 			</div>
 
 		</div>
