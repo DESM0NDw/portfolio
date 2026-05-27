@@ -2,98 +2,62 @@
   <title>Impressum – Desmond Wong</title>
 </svelte:head>
 
-<div class="wrapper">
-  <div class="content">
-    <a href="/" class="back">&larr; Zurück zum Portfolio</a>
+<nav class="fixed top-0 left-0 right-0 z-50 bg-[#0c0c0c]/90 backdrop-blur-sm border-b border-white/5">
+  <div class="max-w-5xl mx-auto px-6 h-14 flex items-center">
+    <a href="/" class="text-slate-400 hover:text-white transition-colors text-sm flex items-center gap-2">
+      <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+      </svg>
+      Zurück zum Portfolio
+    </a>
+  </div>
+</nav>
 
-    <h1>Impressum</h1>
-    <p>Angaben gemäß §5 TMG</p>
+<div class="min-h-screen bg-[#0c0c0c] pt-28 pb-24">
+  <div class="max-w-2xl mx-auto px-6">
 
-    <section>
-      <h2>Verantwortlich</h2>
-      <p>
+    <h1 class="text-3xl font-bold text-cyan-400 mb-1">Impressum</h1>
+    <p class="text-xs text-slate-400 mb-12">Angaben gemäß §5 TMG</p>
+
+    <section class="mb-10">
+      <h2 class="text-base font-semibold text-white mb-3">Verantwortlich</h2>
+      <p class="text-slate-400 text-sm leading-relaxed">
         Desmond Wong<br>
         Lichtenbroicher Weg 29<br>
         40472 Düsseldorf<br>
         Deutschland
       </p>
-      <p>E-Mail: <a href="mailto:desmond.wong@autonomika.de">desmond.wong@autonomika.de</a></p>
+      <p class="text-slate-400 text-sm mt-2">
+        E-Mail: <a href="mailto:desmond.wong@autonomika.de" class="text-cyan-400 hover:text-cyan-300 transition-colors">desmond.wong@autonomika.de</a>
+      </p>
     </section>
 
-    <hr>
+    <div class="border-t border-white/5 my-12"></div>
 
-    <h1>Datenschutzerklärung</h1>
+    <h1 class="text-3xl font-bold text-cyan-400 mb-12">Datenschutzerklärung</h1>
 
-    <section>
-      <h2>Erhobene Daten</h2>
-      <p>Diese Website erhebt keine personenbezogenen Daten. Es werden keine Cookies gesetzt, kein Tracking durchgeführt und keine Analyse-Tools eingesetzt.</p>
-      <p>Beim Besuch der Website werden durch den Webserver technische Zugriffsdaten (IP-Adresse, Zeitstempel, aufgerufene Seite) im Rahmen normaler Server-Logs kurzfristig verarbeitet. Diese Daten werden nicht dauerhaft gespeichert oder ausgewertet.</p>
+    <section class="mb-10">
+      <h2 class="text-base font-semibold text-white mb-3">Erhobene Daten</h2>
+      <p class="text-slate-400 text-sm leading-relaxed mb-3">Diese Website erhebt keine personenbezogenen Daten. Es werden keine Cookies gesetzt, kein Tracking durchgeführt und keine Analyse-Tools eingesetzt.</p>
+      <p class="text-slate-400 text-sm leading-relaxed">Beim Besuch der Website werden durch den Webserver technische Zugriffsdaten (IP-Adresse, Zeitstempel, aufgerufene Seite) im Rahmen normaler Server-Logs kurzfristig verarbeitet. Diese Daten werden nicht dauerhaft gespeichert oder ausgewertet.</p>
     </section>
 
-    <section>
-      <h2>Ihre Rechte</h2>
-      <p>Sie haben jederzeit das Recht auf Auskunft, Berichtigung, Löschung und Einschränkung der Verarbeitung Ihrer personenbezogenen Daten sowie das Recht auf Datenübertragbarkeit. Wenden Sie sich dazu an: <a href="mailto:desmond.wong@autonomika.de">desmond.wong@autonomika.de</a></p>
-      <p>Beschwerden können Sie bei der zuständigen Aufsichtsbehörde einreichen: Landesbeauftragte für Datenschutz und Informationsfreiheit Nordrhein-Westfalen (<a href="https://www.ldi.nrw.de" target="_blank" rel="noopener">ldi.nrw.de</a>).</p>
+    <section class="mb-10">
+      <h2 class="text-base font-semibold text-white mb-3">Ihre Rechte</h2>
+      <p class="text-slate-400 text-sm leading-relaxed mb-3">Sie haben jederzeit das Recht auf Auskunft, Berichtigung, Löschung und Einschränkung der Verarbeitung Ihrer personenbezogenen Daten sowie das Recht auf Datenübertragbarkeit. Wenden Sie sich dazu an: <a href="mailto:desmond.wong@autonomika.de" class="text-cyan-400 hover:text-cyan-300 transition-colors">desmond.wong@autonomika.de</a></p>
+      <p class="text-slate-400 text-sm leading-relaxed">Beschwerden können Sie bei der zuständigen Aufsichtsbehörde einreichen: Landesbeauftragte für Datenschutz und Informationsfreiheit Nordrhein-Westfalen (<a href="https://www.ldi.nrw.de" target="_blank" rel="noopener" class="text-cyan-400 hover:text-cyan-300 transition-colors">ldi.nrw.de</a>).</p>
     </section>
 
-    <section>
-      <h2>Haftungsausschluss</h2>
-      <p>Die Inhalte dieser Website wurden mit größtmöglicher Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte wird keine Gewähr übernommen.</p>
+    <section class="mb-10">
+      <h2 class="text-base font-semibold text-white mb-3">Haftungsausschluss</h2>
+      <p class="text-slate-400 text-sm leading-relaxed">Die Inhalte dieser Website wurden mit größtmöglicher Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte wird keine Gewähr übernommen.</p>
     </section>
+
   </div>
 </div>
 
-<style>
-  .wrapper {
-    min-height: 100vh;
-    background: #0f172a;
-    color: #cbd5e1;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    padding: 2rem 1rem;
-  }
-  .content {
-    max-width: 680px;
-    margin: 0 auto;
-  }
-  .back {
-    display: inline-block;
-    color: #64748b;
-    text-decoration: none;
-    font-size: 0.85rem;
-    margin-bottom: 2rem;
-  }
-  .back:hover { color: #94a3b8; }
-  h1 {
-    font-size: 1.6rem;
-    font-weight: 700;
-    color: #f1f5f9;
-    margin-bottom: 0.25rem;
-  }
-  h1 + p {
-    font-size: 0.8rem;
-    color: #475569;
-    margin-bottom: 1.75rem;
-  }
-  h2 {
-    font-size: 1rem;
-    font-weight: 600;
-    color: #e2e8f0;
-    margin-bottom: 0.5rem;
-  }
-  section {
-    margin-bottom: 1.5rem;
-  }
-  p {
-    font-size: 0.88rem;
-    line-height: 1.7;
-    color: #94a3b8;
-    margin-bottom: 0.6rem;
-  }
-  a { color: #fbbf24; text-decoration: none; }
-  a:hover { text-decoration: underline; }
-  hr {
-    border: none;
-    border-top: 1px solid #1e293b;
-    margin: 2.5rem 0;
-  }
-</style>
+<footer class="bg-[#0c0c0c] py-8 border-t border-white/5">
+  <div class="max-w-5xl mx-auto px-6 text-xs text-slate-600">
+    <span>© 2025 Desmond Wong</span>
+  </div>
+</footer>
