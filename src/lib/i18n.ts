@@ -39,15 +39,15 @@ export const t = {
     projects: {
       heading: 'Projekte',
       p1: {
-        badge: 'In Entwicklung',
+        badge: 'Pausiert',
         name: 'Business-Software für Selbstständige',
         desc: 'Ich wollte ein Tool, das für mich funktioniert, nicht drei separate Apps. Alles in einer Oberfläche: Nachrichten aus Telegram, E-Mail, Teams und WhatsApp, Zeiterfassung, Rechnungen und Belegerfassung per Foto.',
         demo: 'Live Demo ansehen',
       },
       p2: {
         badge: 'Experiment',
-        name: 'Multi-Agent Frameworks im Vergleich',
-        desc: 'Ich wollte verstehen, wie mehrere KI-Agenten zusammenarbeiten, wann es sinnvoll ist und wann es über das Ziel hinausschießt. Getestet: CrewAI, OpenAI Swarm, AutoGen und weitere.',
+        name: 'Agentic Coding Tools im Vergleich',
+        desc: 'Ich wollte verstehen, was passiert, wenn nicht mehr ich Agenten orchestriere, sondern ein einziger Agent eigenständig arbeitet. Getestet: Claude Code, Google Antigravity 2.0, Cursor und weitere. Erkenntnis: Die entscheidende Frage ist nicht das Modell – sondern wo der Agent lebt: im Terminal, in der IDE oder in der Cloud.',
         poc: 'Proof of Concept',
       },
     },
@@ -102,15 +102,15 @@ export const t = {
     projects: {
       heading: 'Projects',
       p1: {
-        badge: 'In Development',
+        badge: 'On Hold',
         name: 'Business Software for Freelancers',
         desc: 'I wanted a tool that actually worked for me, not three separate apps. Everything in one place: messages from Telegram, email, Teams and WhatsApp, time tracking, invoicing, and receipt capture by photo.',
         demo: 'View Live Demo',
       },
       p2: {
         badge: 'Experiment',
-        name: 'Multi-Agent Frameworks Compared',
-        desc: 'I wanted to understand how multiple AI agents work together, when it makes sense and when it overcomplicates things. Tested: CrewAI, OpenAI Swarm, AutoGen, and others.',
+        name: 'Agentic Coding Tools Compared',
+        desc: 'I wanted to understand what changes when you stop orchestrating multiple agents yourself and let a single powerful agent work autonomously. Tested: Claude Code, Google Antigravity 2.0, Cursor, and others. Key insight: the decisive factor isn\'t the model — it\'s where the agent lives: in your terminal, your IDE, or the cloud.',
         poc: 'Proof of Concept',
       },
     },

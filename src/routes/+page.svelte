@@ -135,7 +135,7 @@
 				<h3 class="text-base font-semibold text-white mb-2">{tx.projects.p2.name}</h3>
 				<p class="text-slate-500 text-sm leading-relaxed mb-5">{tx.projects.p2.desc}</p>
 				<div class="flex flex-wrap gap-1.5 mb-5">
-					{#each ['Python', 'CrewAI', 'OpenAI Swarm', 'Paperclip', 'AutoGen'] as tag}
+					{#each ['Claude Code', 'Google Antigravity', 'Cursor', 'Codex', 'Copilot'] as tag}
 						<span class="text-xs bg-white/5 text-slate-400 border border-white/[0.08] px-2 py-0.5 rounded">{tag}</span>
 					{/each}
 				</div>
