@@ -57,8 +57,8 @@ export const t = {
       subheading: 'Drei Automatisierungen zum selbst Ausprobieren, jede löst ein konkretes Problem aus dem Arbeitsalltag.',
       s1: {
         badge: 'Live',
-        name: 'Dokumente per Chat durchsuchen',
-        desc: 'Problem: Niemand liest 200-seitige Handbücher, also fragen neue Mitarbeiter lieber den Kollegen, der auch erst suchen muss. Lösung: Dokument hochladen, Frage stellen, Antwort mit Seitenangabe bekommt man in Sekunden.',
+        name: 'Wissens-Assistent mit Frage-Analyse',
+        desc: 'Problem: Niemand liest 200-seitige Handbücher — und keiner weiß, wonach eigentlich am häufigsten gesucht wird. Lösung: Fragen werden mit Quellenangabe beantwortet und dabei semantisch gruppiert, sodass die häufigsten Fragen sichtbar werden. Dieselbe Basis trägt mehrere Anwendungen — Mitarbeiter-Handbuch, Kundensupport oder Onboarding — je nach hinterlegtem Dokument.',
         link: 'Demo ausprobieren',
         url: 'https://pdf-demo.autonomika.de',
       },
@@ -120,8 +120,8 @@ export const t = {
       subheading: 'Three automations you can try yourself, each one solving a real problem from everyday work.',
       s1: {
         badge: 'Live',
-        name: 'Search Documents by Chat',
-        desc: 'Problem: Nobody reads 200-page manuals, so new employees ask a colleague who also has to go look it up. Solution: Upload a document, ask a question, get the answer with a page reference in seconds.',
+        name: 'Knowledge Assistant with Question Analytics',
+        desc: 'Problem: Nobody reads 200-page manuals — and nobody knows what people actually search for most. Solution: Questions are answered with page citations and semantically grouped, surfacing the most common ones. The same foundation powers multiple use cases — employee handbook, customer support, or onboarding — depending on the document behind it.',
         link: 'Try the demo',
         url: 'https://pdf-demo.autonomika.de',
       },
