@@ -47,7 +47,7 @@ export const t = {
       p2: {
         badge: 'Experiment',
         name: 'Agentic Coding Tools im Vergleich',
-        desc: 'Ich wollte verstehen, was passiert, wenn nicht mehr ich Agenten orchestriere, sondern ein einziger Agent eigenständig arbeitet. Getestet: Claude Code, Google Antigravity 2.0, Cursor und weitere. Erkenntnis: Die entscheidende Frage ist nicht das Modell – sondern wo der Agent lebt: im Terminal, in der IDE oder in der Cloud.',
+        desc: 'Claude Code, Google Antigravity 2.0, Cursor, Codex und Copilot – mit echten Aufgaben aus eigenen Projekten getestet, nicht mit Benchmarks. Worauf ich geachtet habe: Wie groß ist der autonome Kontext? Wie gut navigiert der Agent ein unbekanntes Repo ohne Hinweise? Wo bricht er ab? Ergebnis: Das Modell ist weniger entscheidend als erwartet. Die größten Unterschiede entstehen durch das Environment – Terminal, IDE oder Cloud – und was der Agent dort sehen und anfassen darf.',
         poc: 'Proof of Concept',
       },
     },
@@ -110,7 +110,7 @@ export const t = {
       p2: {
         badge: 'Experiment',
         name: 'Agentic Coding Tools Compared',
-        desc: 'I wanted to understand what changes when you stop orchestrating multiple agents yourself and let a single powerful agent work autonomously. Tested: Claude Code, Google Antigravity 2.0, Cursor, and others. Key insight: the decisive factor isn\'t the model — it\'s where the agent lives: in your terminal, your IDE, or the cloud.',
+        desc: 'Claude Code, Google Antigravity 2.0, Cursor, Codex, and Copilot — tested on real tasks from my own projects, not benchmarks. Criteria: autonomous context window, unprompted repo navigation, failure patterns. Finding: the model matters less than expected. The biggest differences come from the environment — terminal, IDE, or cloud — and what the agent can actually see and modify.',
         poc: 'Proof of Concept',
       },
     },
